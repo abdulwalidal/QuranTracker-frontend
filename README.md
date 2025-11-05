@@ -39,5 +39,3 @@ If frontend and backend run on different origins during development you may need
 Notes
 - The frontend sends POST /verse/{userName} with the selected user's userName (this matches the backend).
 - When deleting a user the backend expects the ObjectId string at DELETE /user/{id}. If GET /user returns nested ObjectId objects, you may need to adjust backend serialization or extract string id before delete.
-
-If you want me to push this repository for you to GitHub, provide the repo name and whether it should be public or private and I’ll tell you the exact steps you can run locally or use the GitHub web UI/CLI to create & push.
